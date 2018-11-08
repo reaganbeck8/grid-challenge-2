@@ -23,9 +23,13 @@
     height: auto;
 }
 .navigation{
-    column-span: 1
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .artworks-list{
     list-style: none;
+    text-align: left;
 }
