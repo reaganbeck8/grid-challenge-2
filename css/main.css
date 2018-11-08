@@ -1,3 +1,31 @@
-main {
-    position: 0
+
+/* An image of myself and the styling for it */
+.img-reagan{
+    border-radius: 50%; 
+    border: 3px solid white;
+    width: 10em;
+    height: 10em;
+}
+
+/* The main container acts as a wrapper for all the content within it */
+.main-container {
+    display: grid;
+    grid-template-columns: 25% 75%;   
+}
+
+/* This grid container is an article with all the images within it.*/
+.grid-container > div {
+    background-color: rgb(255, 255, 255);
+    transition-duration: 1s;
+    column-count: auto auto;
+    grid-gap: 2em;
+    width: 75%;
+    height: auto;
+}
+.navigation{
+    column-span: 1
+}
+
+.artworks-list{
+    list-style: none;
 }
